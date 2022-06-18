@@ -1,0 +1,27 @@
+<title>Dashboard</title>
+<div class="cardous ttl-user">
+  <h3>Total User</h3>
+  <h1><%= jumlahUser %></h1>
+</div>
+
+<div class="cardous rcnt-game">
+  <h3>Recap Game</h3>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>Room Number</th>
+        <th>ID Win</th>
+        <th>ID Lose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% recentGame.map((history) => { %>
+      <tr>
+        <td><%= history.roomId %></td>
+        <td><%= history.idWin %></td>
+        <td><%= history.idLose %></td>
+      </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</div>

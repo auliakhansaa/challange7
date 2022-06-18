@@ -1,0 +1,34 @@
+<title>Detail User</title>
+<div class="dtl-user">
+  <h3 class="my-3">Detail User</h3>
+  <div class="table-responsive mt-3">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th scope="row">Tanggal</th>
+          <td><%= detail.CreatedAt %></td>
+        </tr>
+        <tr>
+          <th scope="row">Id Room</th>
+          <td><%= detail.roomId %></td>
+        </tr>
+        <tr>
+          <th scope="row">First Name</th>
+          <td><%= detail.PlayerUserBiodata.firstName %></td>
+        </tr>
+        <tr>
+          <th scope="row">Last Name</th>
+          <td><%= detail.PlayerUserBiodata.lastName %></td>
+        </tr>
+        <tr>
+          <th scope="row">Phone Number</th>
+          <td><%= detail.PlayerUserBiodata.phoneNumber %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <button type="button" onclick="history.back()" class="btn btn-light">
+    <i class="bi-arrow-left"></i>
+    Kembali
+  </button>
+</div>

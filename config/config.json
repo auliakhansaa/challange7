@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "m",
+    "password": "",
+    "database": "c7_dev",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "m",
+    "password": "",
+    "database": "challenge_7__test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "m",
+    "password": "",
+    "database": "challenge_7__production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

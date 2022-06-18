@@ -1,0 +1,39 @@
+<title>Create Admin</title>
+<form class="row g-3" id="form-create" method="post" action="/register">
+  <h3>Create Admin</h3>
+  
+
+  <div class="col-md-12">
+    <label for="email" class="form-label"> Name</label>
+    <input type="text" class="form-control" id="name" name="name" required />
+  </div>
+
+  <div class="mb-3">
+    <label for="address" class="form-label">Phone Number</label>
+    <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" required />
+  </div>
+  <div class="mb-3">
+    <label for="name" class="form-label">Username</label>
+    <input type="text" class="form-control" name="username" id="username" required />
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" name="email" required />
+  </div>
+
+  <div class="mb-3">
+    <label for="address" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" name="password" required />
+  </div>
+
+  <div class="row">
+    <div class="col-auto">
+      <button type="button" onclick="history.back()" class="btn btn-danger">Batal</button>
+    </div>
+
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>

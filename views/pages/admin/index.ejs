@@ -1,0 +1,27 @@
+<title>List User</title>
+<div class="list-user">
+  <h3>List Users</h3>
+  <div class="mt-3">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Username</th>
+          <th scope="col" class="w-100"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% usergames.forEach((usergame, index) => { %>
+          <th scope="row"><%= index + 1 %></th>
+          <td ><%= usergame.username %></td>
+          <td>
+           
+          </td>
+        </tr>
+      <% }) %>
+        <tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
